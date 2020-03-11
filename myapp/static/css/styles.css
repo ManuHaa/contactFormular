@@ -1,0 +1,60 @@
+header{text-align: center;
+background-color: #393e5e;
+} 
+
+#topnavigation{
+    background-color: #ed5c5e;
+    overflow: hidden;
+    text-align: center;
+} 
+
+#topnavigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #topnavigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  #topnavigation a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #txt{
+      background-color: #f8d643;
+      float: left;
+      width: 70%;
+      animation: typing 4s steps(48) forwards;
+  } 
+
+  #randbemerkung{
+      float: right;
+      width: 30%;
+      background-color: #ed5c5e;
+      height: 237px;
+  } 
+
+  footer{
+      float: left;
+      background-color: #393e5e;;
+      width: 100%;
+      color: white;
+  } 
+
+ @keyframes typing{
+     from{
+         width: 0;
+     } 
+     to{
+         width: 70%;
+     } 
+ } 
+ 
+
